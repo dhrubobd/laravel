@@ -8,4 +8,15 @@ Type div>h1+p and ENTER key pressing will generate following code
         <p></p>
     </div>
 
-2. 
+2. Suggested Plugins for VS Code Editor
+prettier makes non-formatted code prettier
+
+devsense - PHP Related
+
+one dark pro- For color theme
+
+Material Icon - Shows icon beside file based on the file type
+
+eslint - Shows JavaScript code error
+
+github copilot
