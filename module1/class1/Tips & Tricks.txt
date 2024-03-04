@@ -8,9 +8,19 @@ Type div>h1+p and ENTER key pressing will generate following code
         <p></p>
     </div>
 
-2. Suggested Plugins for VS Code Editor
+2. Making code formatted
 prettier makes non-formatted code prettier
 
+Also, non-formatted code can be made formatted by command  
+<div><h1>Heading</h1><p>Paragraph text</p></div>
+    
+Above non-formatted code will be formated like below if the code is selected and press > on command search and select "Format Selection"
+    <div>
+        <h1>Heading</h1>
+        <p>Paragraph text</p>
+    </div>
+
+3. Suggested Plugins for VS Code Editor
 devsense - PHP Related
 
 one dark pro- For color theme
@@ -20,3 +30,9 @@ Material Icon - Shows icon beside file based on the file type
 eslint - Shows JavaScript code error
 
 github copilot
+
+3. Image Source -  unsplash.com
+
+4. Some code convension should be followed
+Like 
+js, css, images etc files should be kept in "src"
