@@ -1,0 +1,11 @@
+Visual Studio Code Editor Tips & Tricks
+=======================================
+
+1. Emmet for VS Code Editor
+Type div>h1+p and ENTER key pressing will generate following code
+    <div>
+        <h1></h1>
+        <p></p>
+    </div>
+
+2. 
