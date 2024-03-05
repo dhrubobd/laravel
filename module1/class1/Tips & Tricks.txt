@@ -33,6 +33,6 @@ github copilot
 
 3. Image Source -  unsplash.com
 
-4. Some code convension should be followed
+4. Some code convention should be followed
 Like 
 js, css, images etc files should be kept in "src"
