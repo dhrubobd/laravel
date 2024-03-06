@@ -1,12 +1,52 @@
-নতুন একটা repository তৈরি করার পর নিচের কমান্ডগুলা ফলো করলে আপনার ডকুমেন্টগুলা github এ রাখা হবে।
-1.git init
+1. গিট্ কনফিগার করা 
+================
+git config --global user.name "Luke"
+git config --golobal user.email "dhrubo.luke@gmail.com"
+এটা git ও gitbash ইনস্টল করার পরে  শুধুমাত্র একমাত্রই কনফিগার করার প্রয়োজন হবে 
+
+
+
+
+2. github এ নতুন রিপোসিটোরি তৈরী করার পরে 
+================
+
+নতুন একটা repository github e তৈরি করার পর নিচের কমান্ডগুলা ফলো করলে আপনার ডকুমেন্টগুলা github এ রাখা হবে।
+1.git init         
 2.git add --all
 3.git commit -m "Your commit or message"
 4.git branch -M main
 5.git remote add origin https://github.com/mazbaul20/test.git
 6.git push -u origin main
-নিচের চিত্রে দেয়া কমান্ড লাইন ফলো করে আপনাদের রিপোজিটরিতে দেয়া লিংক দিবেন। যা ৫ নাম্বারে আমি দিছি।
-এরপর আমরা যখন নতুন ডাটা যুক্ত করবো বা আপডেট করবো তখন কিন্তু আমাদের ডাটাগুলা github এ যাবে না তখন আমাদের নিচের কমান্ডগুলা দিতে হবে।
+
+
+
+Explaination
+=============
+1.git init         
+git ইনিটিয়ালাইজ করা , git ইনিটিয়ালাইজ করার সাথে সাথে একটা empty repository তৈরী হয়ে যাবে 
+
+2. git add --all অথবা git add .
+git  ওই repository তে যত ফাইল আছে সব তার tracking system এ add করে ন্যায়
+
+3.git commit -m "Your commit or message"
+এটা অনেকটা ছবি তোলার মতো , ফাইল এ কোনো পরিবর্তন করার পরে commit করলে তার snapshot নিয়ে রাখে 
+
+4.git branch -M main
+আমরা এর যে ব্রাঞ্চ এর ফাইল পরিবর্তন করবো বা যে ব্রাঞ্চের ফাইল গুলো আপলোড করবো সেই ব্রাঞ্চ সিলেক্ট করবো 
+
+5.git remote add origin https://github.com/mazbaul20/test.git
+https://github.com/mazbaul20/test.git হলো যে repository লিংক | আমরা github র  যে repository তে ফাইল পরিবর্তন করবো সেই epository র সাথে গিট্ এর লোকাল epository সংযুক্ত করবো 
+এটা একবার সংযুক্ত করার পরে ওই তে কাজ করতে থাকলে দ্বিতীয়বার সংযুক্ত করার প্রয়োজন নেই।
+
+6.git push -u origin main
+আমাদের ফাইল এর পরিবর্তন গুলো push কম্মান্ডের মাধ্যমে github এ আপডেট করে দেব  
+
+
+এরপর আমরা যখন নতুন ডাটা যুক্ত করবো বা আপডেট করবো তখন প্রতিবার github এ আপডেট করার জন্য নিচের কমান্ডগুলা দিতে হবে।
 1.git add --all
 2.git commit -m "your commit message"
 3.git push
+
+
+
+
