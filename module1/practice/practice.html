@@ -12,6 +12,12 @@
     <meta property="og:title" content="HTML Practice Site">
     <meta property="og:description" content="HTML Practice Site">
     <meta property="og:image" content="https://luke.com/p.jpg">
+
+    <!-- cache control -->
+    <meta http-equiv="cache_cotrol" content="no cache"> <!-- Cashless kore dewa -->
+    <meta http-equiv="expires" content="0"> <!-- Expires duration -->
+    <meta http-equiv="pregma" content="no cache"> <!-- Site cach korbe na -->
+
     <title>HTML Practice</title>
 </head>
 <body>
@@ -64,22 +70,25 @@
         <li>Barishal</li>
     </ul>
     <h2>Login Form</h2>
-    <label for="User Name">User Name</label><br>
-    <input type="text" name="name" id=""><br>
-    <label for="Age">Age</label><br>
-    <input type="number" name="age" id=""><br>
-    <label for="Email">Email</label><br>
-    <input type="email" name="email" id=""><br>
-    <label for="Password">Password</label><br>
-    <input type="password" name="password" id=""><br>
-    Remember Password <input type="checkbox" name="remember" id=""><br>
-    <select name="city" id="">
-        <option value="Dhaka">Dhaka</option>
-        <option value="Barishal">Barishal</option>
-        <option value="Kumilla">Kumilla</option>
-        <option value="Sylhet">Sylhet</option>
-    </select><br>
-    <input type="submit" value="Submit">
+    <form action="">
+        <label for="User Name">User Name</label><br>
+        <input type="text" name="name" id=""><br>
+        <label for="Age">Age</label><br>
+        <input type="number" name="age" id=""><br>
+        <label for="Email">Email</label><br>
+        <input type="email" name="email" id=""><br>
+        <label for="Password">Password</label><br>
+        <input type="password" name="password" id=""><br>
+        Remember Password <input type="checkbox" name="remember" id=""><br>
+        <select name="city" id="">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Barishal">Barishal</option>
+            <option value="Kumilla">Kumilla</option>
+            <option value="Sylhet">Sylhet</option>
+        </select><br>
+        <input type="submit" value="Submit">
+    </form>
+    
     <h2>Image</h2>
     <img src="//images.unsplash.com/photo-1709432729431-2a39c4b5211b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" srcset=""
     width="300">
@@ -98,6 +107,17 @@
     <iframe src="//www.youtube.com/embed/eBeg8zJJgdo" frameborder="0" width="500" height="300"></iframe>
 
     <h2>Meta Practice, Check on Head Section^</h2>
+    <h2>Meta Practice Cache Control, Check on Head Section^</h2>
+
+
+    <h2>Datalist Complete</h2>
+    <input name="country" list="country_name">
+    <datalist id="country_name">
+        <option value="Afganistan">
+        <option value="Iraq">
+        <option value="Iran">
+    </datalist>
+
 
 </body>
 </html>
