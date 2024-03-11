@@ -39,3 +39,5 @@ js, css, images etc files should be kept in "src"
 
 5. কোনো HTML ফাইল এ  ! লিখে  Enter button  চাপলে 
 ভিজ্যুয়াল ষ্টুডিও কোড অটোমেটিক HTML 5 বেসিক স্ট্রাকচার তৈরী করে দেয় 
+
+একই ব্যাপার হবে HTML ফাইল এ html:5 লিখে  Enter button  চাপলে
