@@ -15,7 +15,7 @@ h1{
 p{
     padding: $normal-padding;
 }
-
+/*Mixin Practice Begin*/
 @mixin button-common-style{
     padding: $normal-padding;
     text-align: center;
@@ -44,3 +44,24 @@ p{
 	background-color: red;
 	color: white;
 }
+/*Mixin Practice End*/
+
+/*Passing variable into Mixin Practice Begin*/
+@mixin colorful-box($box-width, $box-bg-color, $box-text-color){
+    width: $box-width;
+    background-color: $box-bg-color;
+    color: $box-text-color;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+#colorful-box1{
+    @include colorful-box(200px, aqua, black);
+}
+#colorful-box2{
+    @include colorful-box(300px, violet, white);
+}
+#colorful-box3{
+    @include colorful-box(400px, black, aqua);
+}
+/*Passing variable into Mixin Practice End*/

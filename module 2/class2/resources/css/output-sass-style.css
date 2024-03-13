@@ -39,6 +39,7 @@ p {
   padding: 10px 20px;
 }
 
+/*Mixin Practice Begin*/
 .login-button {
   padding: 10px 20px;
   text-align: center;
@@ -78,5 +79,36 @@ p {
   background-color: red;
   color: white;
 }
+
+/*Mixin Practice End*/
+/*Passing variable into Mixin Practice Begin*/
+#colorful-box1 {
+  width: 200px;
+  background-color: aqua;
+  color: black;
+  padding: 20px;
+  margin: 20px;
+  float: left;
+}
+
+#colorful-box2 {
+  width: 300px;
+  background-color: violet;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  float: left;
+}
+
+#colorful-box3 {
+  width: 400px;
+  background-color: black;
+  color: aqua;
+  padding: 20px;
+  margin: 20px;
+  float: left;
+}
+
+/*Passing variable into Mixin Practice End*/
 
 /*# sourceMappingURL=output-sass-style.css.map */
