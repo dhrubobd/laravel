@@ -1,0 +1,20 @@
+header{
+    background-color: $violet-color;
+}
+nav{
+    color: $blue-color;
+    float: right;
+    margin-left: auto;
+}
+nav ul, nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    padding: $normal-padding;
+}
+#logo{
+    width: 200px;
+}
