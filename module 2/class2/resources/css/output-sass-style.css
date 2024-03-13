@@ -1,0 +1,18 @@
+.box {
+  background-color: gray;
+  color: black;
+  border: 2px solid red;
+}
+
+h1 {
+  color: violet;
+  background-color: red;
+  padding: 10px 20px;
+  margin: 0px;
+}
+
+p {
+  padding: 10px 20px;
+}
+
+/*# sourceMappingURL=output-sass-style.css.map */

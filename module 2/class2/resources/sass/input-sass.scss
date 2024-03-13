@@ -1,0 +1,21 @@
+$red-color: red;
+$blue-color: blue;
+$violet-color: violet;
+$box-background: gray;
+$text-color: black;
+$normal-padding: 10px 20px;
+
+.box{
+    background-color: $box-background;
+    color: $text-color;
+    border: 2px solid $red-color;
+}
+h1{
+    color: $violet-color;
+    background-color: $red-color;
+    padding: $normal-padding;
+    margin: 0px;
+}
+p{
+    padding: $normal-padding;
+}
