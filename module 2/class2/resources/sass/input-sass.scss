@@ -15,3 +15,32 @@ h1{
 p{
     padding: $normal-padding;
 }
+
+@mixin button-common-style{
+    padding: $normal-padding;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 10px;
+    line-height: 40px;
+}
+
+.login-button{
+	@include button-common-style;
+	background-color: gray;
+	color: black;
+}
+.reg-button{
+	@include button-common-style;
+	background-color: black;
+	color: white;
+}
+.yes-button{
+	@include button-common-style;
+	background-color: green;
+	color: white;
+}
+.no-button{
+	@include button-common-style;
+	background-color: red;
+	color: white;
+}

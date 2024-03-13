@@ -39,4 +39,44 @@ p {
   padding: 10px 20px;
 }
 
+.login-button {
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 19px;
+  border-radius: 10px;
+  line-height: 40px;
+  background-color: gray;
+  color: black;
+}
+
+.reg-button {
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 19px;
+  border-radius: 10px;
+  line-height: 40px;
+  background-color: black;
+  color: white;
+}
+
+.yes-button {
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 19px;
+  border-radius: 10px;
+  line-height: 40px;
+  background-color: green;
+  color: white;
+}
+
+.no-button {
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 19px;
+  border-radius: 10px;
+  line-height: 40px;
+  background-color: red;
+  color: white;
+}
+
 /*# sourceMappingURL=output-sass-style.css.map */
