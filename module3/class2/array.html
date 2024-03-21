@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Practice</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const cityList = ["Dhaka","Kumilla","Sylhet","Thakurgaon"]; // Our Array
+
+    //Fetching data using forEach loop function
+    document.write("<h2>Fetching data using forEach loop function</h2>");
+    let i= 1;
+    cityList.forEach(function(city){
+        document.write("City "+i+". "+city+"<br>");
+        i++;
+    });
+
+    //Fetching data using for of loop 
+    document.write("<h2>Fetching data using For Of Loop </h2>");
+    i = 1;
+    for (let city of cityList){
+        document.write("City "+i+". "+city+"<br>");
+        i++;
+    }
+
+    //Fetching data using for in loop 
+    document.write("<h2>Fetching data using For In Loop </h2>");
+    i = 1;
+    for(let city in cityList){
+        document.write("City "+i+". "+cityList[city]+"<br>");
+        i++;
+    }
+
+</script>
+</html>
