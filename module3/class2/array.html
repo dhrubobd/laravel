@@ -35,7 +35,7 @@
         i++;
     }
     // Concating Arrays - Two or more array combination
-    document.write("<h2>Array Concat </h2>");
+    document.write("<h2>Array Concat() function use</h2>");
 
     let basicSubjects = ["Bangla","English","Math"];
     let artsSubjects = ["Geography", "History","Social Studies"];
@@ -52,6 +52,17 @@
     }else{
         document.write("We don't provide any subject for your group");
     }
+
+    // Array Form function
+    document.write("<h2>Array Form() function use</h2>");
+    
+    let anyString = "I am Luke";
+    let newArray = Array.from(anyString);
+    
+    newArray.forEach(function(arrayItem){
+        document.write(arrayItem+"<br>");
+    });
+        
 
 </script>
 </html>
