@@ -34,6 +34,24 @@
         document.write("City "+i+". "+cityList[city]+"<br>");
         i++;
     }
+    // Concating Arrays - Two or more array combination
+    document.write("<h2>Array Concat </h2>");
+
+    let basicSubjects = ["Bangla","English","Math"];
+    let artsSubjects = ["Geography", "History","Social Studies"];
+    let scienceSubjects = ["Physics","Chemistry","Biology"];
+
+    let yourGroup = "arts"; // Write your Group
+
+    if (yourGroup=="science"){
+        let yourSubjects = basicSubjects.concat(scienceSubjects); // Concating
+        document.write(yourSubjects);
+    }else if(yourGroup=="arts"){
+        let yourSubjects = basicSubjects.concat(artsSubjects); // Concating
+        document.write(yourSubjects);
+    }else{
+        document.write("We don't provide any subject for your group");
+    }
 
 </script>
 </html>
