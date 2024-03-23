@@ -15,6 +15,24 @@
     document.write("<h2>What is the index of 'x' in Our example string?</h2>");
     let indexPosition = ourString.indexOf('x');
     document.write("The index position is "+indexPosition);
-    
+
+    //replace function Practice
+    document.write("<h2>Replace 'i' in Our example string with 'I'?</h2>");
+    let newString = ourString.replace('i','I');
+    document.write("Our New String is: "+ newString);
+
+    //Above replace function replaces only first caracter
+    // Now we will replace all similar characthers in a string
+    document.write("<h2>Replace ALL 'i's in Our example string with 'I's?</h2>");
+    newString = ourString.replaceAll('i','I');
+    document.write("Our New String is: "+ newString);
+
+    //substring function Practice
+    let myCountry = "Bangladesh";
+    document.write("<h2>Getting 'desh' part from 'Bangladesh'</h2>");
+    newString = myCountry.substr(6,4);
+    document.write("The String is: "+ newString);
+
+
 </script>
 </html>
