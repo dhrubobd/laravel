@@ -81,7 +81,22 @@
     document.write("<h2>Splitting a string into Array word by word</h2>");
     newArray = anyString.split(" "); // Split where there is a space
     document.write(newArray);
-        
 
+    // Adding two or more arrays using Spread operator (...)
+    document.write("<h2>Adding two arrays using Spread operator (...)</h2>");
+    let summerFruits = ["Mango","Watermelon","Jackfruit"];
+    let winterFruits = ["Orange","Apple","Malta"];
+
+    let allFruits = [...summerFruits, ...winterFruits,"Banana","Pineapple","Coconut","Grape"];
+
+    document.write("All Season Fruits are: "+allFruits);
+        
+    // Adding two or more arrays using push method
+    document.write("<h2>Adding two or more arrays using push method</h2>");
+    let summerFlowers = ["Krishno Chura", "Kath Golap","Joba"];
+    let autumnFlowers = ["Rose","Baganbilash","Togor"];
+    let allFlowers=["Waterlily","Padma"];
+    allFlowers.push(summerFlowers,autumnFlowers);
+    document.write("All Season Flowerss are: "+allFlowers);
 </script>
 </html>
