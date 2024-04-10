@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For In Loop</title>
+    
+</head>
+<body>
+    <div id="array-display"></div>
+    <div id="object-display"></div>
+</body>
+<script>
+    // For In Loop Implementation for Array
+    const seasons = ["Summer","Rainey","Autumn","Late Autumn","Spring","Winter"];
+    let theContent = "<br>::::::::<br>For In Loop Implementation for Array <br>::::::::<br>";
+    for(let season in seasons){
+        theContent = theContent+seasons[season]+"<br>";
+    }
+    document.getElementById('array-display').innerHTML = theContent;
+
+    // For In Loop Implementation for Object
+    const person = {
+        name:"Luke Sarker",
+        city:"Barishal",
+        birth: 1981
+    }
+    theContent = "<br>::::::::<br>For In Loop Implementation for Object <br>::::::::<br>";
+    for(let pdata in person){
+        theContent = theContent+person[pdata]+"<br>";
+    }
+    document.getElementById('object-display').innerHTML = theContent;
+</script>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checking if Input is number</title>
+</head>
+<body>
+    <input id="the-input" type="text"><br>
+    <input type="button" value="CHECK" onclick="checkIfNumber()">
+    <p id="show-result"></p>
+</body>
+<script>
+    function checkIfNumber(){
+        let theInput = document.getElementById('the-input').value;
+        if (isNaN(theInput)==false){
+           document.getElementById('show-result').innerText="This is a Number"; 
+        }
+        else{
+            document.getElementById('show-result').innerText="This is not a Number";
+        }
+    }
+</script>
+</html>
