@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigator Objects</title>
+</head>
+<body>
+    
+</body>
+<script>
+    document.write("App Name: "+navigator.appName+"<br>");
+    document.write("App Code Name: "+navigator.appCodeName+"<br>");
+    document.write("App Version: "+navigator.appVersion+"<br>");
+    document.write("Language: "+navigator.language+"<br>");
+    document.write("Cookie Enabled: "+navigator.cookieEnabled+"<br>");
+    document.write("Platform: "+navigator.platform+"<br>");
+    document.write("User Agent: "+navigator.userAgent+"<br>");
+    let latitude = navigator.geolocation.latitude;
+    let longitude = navigator.geolocation.longitude;
+    document.write("My Geo Position is: <br>Latitude:"+latitude+"<br>Longitude:"+longitude);
+
+</script>
+</html>

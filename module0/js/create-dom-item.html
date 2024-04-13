@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create List Appending DOM item</title>
+</head>
+<body>
+    <h1>My To-Do List</h1>
+    <ul id="the-list"></ul>
+    <input id="the-list-input" type="text"><br><br>
+    <button onclick="addItem()" type="submit">Add Item</button>
+</body>
+
+<script>
+    
+    let theListInput = document.getElementById('the-list-input');
+    
+    function addItem(){
+        let theListItem = document.createElement('li');
+        theListItem.innerHTML = theListInput.value;
+        let theList = document.getElementById('the-list');
+        theList.appendChild(theListItem);
+    }
+</script>
+</html>
