@@ -14,15 +14,20 @@
         <h1>Login Form</h1>
         <p>Login To Your Account</p>
     </hgroup>
-    <form enctype="multipart/form-data" action="/login-check" method="POST">
+
+    <form class="flash default" enctype="multipart/form-data" action="/profile" method="POST">
         @csrf
+        <fieldset class="accent">
         <label>User Name</label>
-        <input type="text" name="username">
+        <input class="flash default" type="text" name="username" placeholder="Your Username">
         <label>Password</label>
-        <input type="password" name="password">
+        <input class="flash default" type="password" name="password"  placeholder="Your password">
         <br />
-        <button type="submit">Submit</button>
+        <button class="flash default" type="submit">Submit</button>
+        <p class="danger">{{session('error')}}</p>
+        </fieldset>
     </form>
+
     <hgroup>
         <p>Username: luke</p>
         <p>Password: 123</p>
